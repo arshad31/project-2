@@ -36,7 +36,7 @@ if ($ans3 == "b") {
 }
 
 echo "Question 4: What is the name of your country?\n";
-echo "a) Canada\nb) Bangladesh\nc) Turky\n";
+echo "a) Canada\nb) Bangladesh\nc) Turkey\n";
 echo "Your answer (a/b/c): ";
 $ans1 = trim(fgets(STDIN));
 if ($ans1 == "b") {
