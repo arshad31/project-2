@@ -12,6 +12,7 @@ while(true){
     echo "Enter your choice: ";
 
     $choice = trim(fgets(STDIN));
+
     if($choice == '1'){
         if($name1 == ""){
             echo "Please enter contact-1 name: ";
@@ -38,7 +39,7 @@ while(true){
         if($name2 != ""){
             echo "Contact-2 Name: $name2 and Phone: $phone2\n";
         }
-        if($name1 = "" && $name2 = ""){
+        if($name1 == "" && $name2 == ""){
             echo "No contact found!\n";
         }
         
