@@ -12,7 +12,7 @@ while(true){
     echo "Enter your choice: ";
 
     $choice = trim(fgets(STDIN));
-    if($choice == 1){
+    if($choice == '1'){
         if($name1 == ""){
             echo "Please enter contact-1 name: ";
             $name1 = trim(fgets(STDIN));
@@ -30,7 +30,7 @@ while(true){
         }
 
     }
-    else if($choice == 2){
+    else if($choice == '2'){
         echo "===Contacts===\n";
         if($name1 != ""){
             echo "Contact-1 Name: $name1 and Phone: $phone1\n";
@@ -43,7 +43,7 @@ while(true){
         }
         
     }
-    else if($choice == 3){
+    else if($choice == '3'){
         echo "Goodbye.";
         break;
     }
