@@ -34,6 +34,17 @@ if ($ans3 == "b") {
 } else {
     echo "Wrong! The correct answer is (b).\n";
 }
-echo "You got $score out of 3.\n";
+
+echo "Question 4: What is the name of your country?\n";
+echo "a) Canada\nb) Bangladesh\nc) Turky\n";
+echo "Your answer (a/b/c): ";
+$ans1 = trim(fgets(STDIN));
+if ($ans1 == "b") {
+    echo "Answer is correct!\n";
+    $score++;
+} else {
+    echo "Wrong! The correct answer is (b).\n";
+}
+echo "You got $score out of 4.\n";
 
 ?>
